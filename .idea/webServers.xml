@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9b3f956a-f9e6-4a13-91cc-0b612db0f50f" name="interpolitex.ru">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="interpolitex.ru" port="22" sshConfigId="e5e4954f-a110-4656-9936-991dace23824" sshConfig="interpolitex.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bb1e1c69-a0a2-46bd-bd48-c559a45a3ec0" name="neuro-olimp.ru">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="213.79.122.142" port="22" sshConfigId="052dcd1c-cbe1-46e6-bc48-1b417c25b48a" sshConfig="neuro-olimp.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6528bbc2-3eae-4926-a2ea-89c2c384de43" name="dev.itsoft.ru">
+        <fileTransfer rootFolder="/home/domains/itsoft.ru/dev.html" accessType="SFTP" host="itsoft.ru" port="2226" sshConfigId="26acc34d-647a-416a-b143-f05809a226cd" sshConfig="dev.itsoft.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3450f007-714b-4073-8dec-366068935674" name="alphavit">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="193.106.95.82" port="22" sshConfigId="63658640-427c-4a16-8036-32623530292d" sshConfig="alphavit">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f9a52d10-cd13-4c09-9bae-68e0cfa989c3" name="carniton">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="213.79.122.46" port="22" sshConfigId="63d3270a-ba0d-4f3a-b24a-1c597c625996" sshConfig="carniton">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e4fc9c52-cd72-46fa-a7aa-4471d6fa20af" name="arms-expo">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="195.93.180.130" port="22" sshConfigId="e9d4448a-09ea-454f-8ace-eee48fc6607e" sshConfig="arms-expo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5fd8cbff-0aff-445e-b964-166cd5546341" name="procto-glivenol">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="213.79.122.90" port="22" sshConfigId="22919166-f835-4c51-85ff-827ffd9a6cf7" sshConfig="procto-glivenol">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1c81c8a6-1215-47bd-af6a-b118c8dbedd7" name="kidz.vtf.ru">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="193.106.93.78" port="22" sshConfigId="2d837737-9bbe-4340-aa43-60ca6d859885" sshConfig="kidz.vtf.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e032e5d9-0b51-4f25-af5f-2395bbd39e5b" name="allerway">
+        <fileTransfer rootFolder="/home/allerway-b" accessType="SFTP" host="ssh.allerway-b.nichost.ru" port="22" sshConfigId="62afc5a3-13b1-4dd7-80a7-8c52ad266212" sshConfig="allerway">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b3a80032-3431-4f9e-990d-25d4ec5fb812" name="white-coal/coal-white">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="195.93.181.114" port="22" sshConfigId="270a29cf-14e6-497e-ad35-444d222d8937" sshConfig="white-coal/coal-white">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="db149023-09dc-4c5e-9b4d-00b3073d7dcd" name="wncontest">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="195.93.181.243" port="22" sshConfigId="4b015552-42a5-424d-a3ba-0ee5df8baa90" sshConfig="wncontest">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9138a658-4fdb-4c47-92d9-112c6ac7e4a0" name="qudesan/kudesan">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="213.79.122.22" port="22" sshConfigId="f3f74bee-b520-4d21-8f87-80e500aa83db" sshConfig="qudesan/kudesan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1815761f-c57f-483b-9e9c-8b00c22fcd10" name="qudesan (DEV)">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="193.106.94.4" port="22" sshConfigId="495379b7-09ae-465c-9759-e5e8f737d200" sshConfig="qudesan (DEV)">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0ac5e15e-cd32-4eb6-be62-79ceff196b17" name="cetrine">
+        <fileTransfer rootFolder="/home/cetri29902" accessType="SFTP" host="ssh.cetri29902.nichost.ru" port="22" sshConfigId="0f7ff991-8538-438e-a09c-edd2379605f8" sshConfig="centrine">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2b980198-3e72-4319-b7a8-bc3a963e8bdd" name="ksilong">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="193.106.92.245" port="22" sshConfigId="64b92800-069c-44bb-8d01-c8235d561490" sshConfig="ksilong">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9d5da1eb-ef29-4420-8e3f-271becaf07b0" name="protargol">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="94.79.55.118" port="22" sshConfigId="42882d14-ae31-4ea5-954d-e7dc7ff0532b" sshConfig="protargol">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="496bb15b-64f3-4ab8-836c-3026d3f716f4" name="vihyno" url="http://vihyno.org">
+        <fileTransfer host="vihyno.org" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0d74c63b-74e2-4b39-852c-1acd105ff7be" name="allium">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="193.106.94.3" port="22" sshConfigId="380bef43-e9f6-43dc-b3a7-edf8294a808d" sshConfig="allium">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ffc07bcb-a549-43a2-912c-841026e6482b" name="nourkrin">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="94.79.55.179" port="22" sshConfigId="729f0e83-9e2a-459d-86a4-513aea5e4003" sshConfig="nourkrin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="03878b0e-3596-4c1f-8b37-345ee2076ee5" name="momatrino">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="213.79.122.143" port="22" sshConfigId="efddcfc2-e437-42e9-8ad7-be8906c4aead" sshConfig="momatrino">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

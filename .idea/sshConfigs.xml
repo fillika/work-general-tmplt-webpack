@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="interpolitex.ru" id="e5e4954f-a110-4656-9936-991dace23824" port="22" customName="interpolitex.ru" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="213.79.122.142" id="052dcd1c-cbe1-46e6-bc48-1b417c25b48a" port="22" customName="neuro-olimp.ru" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="itsoft.ru" id="26acc34d-647a-416a-b143-f05809a226cd" port="2226" customName="dev.itsoft.ru" nameFormat="CUSTOM" username="dev" />
+      <sshConfig authType="PASSWORD" host="193.106.95.82" id="63658640-427c-4a16-8036-32623530292d" port="22" customName="alphavit" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="213.79.122.46" id="63d3270a-ba0d-4f3a-b24a-1c597c625996" port="22" customName="carniton" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="195.93.180.130" id="e9d4448a-09ea-454f-8ace-eee48fc6607e" port="22" customName="arms-expo" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="213.79.122.90" id="22919166-f835-4c51-85ff-827ffd9a6cf7" port="22" customName="procto-glivenol" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="193.106.93.78" id="2d837737-9bbe-4340-aa43-60ca6d859885" port="22" customName="kidz.vtf.ru" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="ssh.allerway-b.nichost.ru" id="62afc5a3-13b1-4dd7-80a7-8c52ad266212" port="22" customName="allerway" nameFormat="CUSTOM" username="allerway-b" />
+      <sshConfig authType="PASSWORD" host="195.93.181.114" id="270a29cf-14e6-497e-ad35-444d222d8937" port="22" customName="white-coal/coal-white" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="195.93.181.243" id="4b015552-42a5-424d-a3ba-0ee5df8baa90" port="22" customName="wncontest" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="213.79.122.22" id="f3f74bee-b520-4d21-8f87-80e500aa83db" port="22" customName="qudesan/kudesan" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="193.106.94.4" id="495379b7-09ae-465c-9759-e5e8f737d200" port="22" customName="qudesan (DEV)" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="ssh.cetri29902.nichost.ru" id="0f7ff991-8538-438e-a09c-edd2379605f8" port="22" customName="centrine" nameFormat="CUSTOM" username="cetri29902" />
+      <sshConfig authType="PASSWORD" host="193.106.92.245" id="64b92800-069c-44bb-8d01-c8235d561490" port="22" customName="ksilong" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="94.79.55.118" id="42882d14-ae31-4ea5-954d-e7dc7ff0532b" port="22" customName="protargol" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="localhost" id="0abb6daf-948d-40d8-a3d5-79292184c29c" port="22" customName="vihyno" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="193.106.94.3" id="380bef43-e9f6-43dc-b3a7-edf8294a808d" port="22" customName="allium" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="94.79.55.179" id="729f0e83-9e2a-459d-86a4-513aea5e4003" port="22" customName="nourkrin" nameFormat="CUSTOM" username="bitrix" />
+      <sshConfig authType="PASSWORD" host="213.79.122.143" id="efddcfc2-e437-42e9-8ad7-be8906c4aead" port="22" customName="momatrino" nameFormat="CUSTOM" username="bitrix" />
+    </configs>
+  </component>
+</project>

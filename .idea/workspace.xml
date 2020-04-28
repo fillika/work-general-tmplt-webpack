@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="&lt;3450f007-714b-4073-8dec-366068935674&gt;/www/contacts/index.php" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1aqCi5b2LoyC89HeP3bRhwJbd87" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Работа\General project\src\js" />
+      <recent name="D:\Работа\General project" />
+      <recent name="D:\Работа\General project\src" />
+      <recent name="D:\Работа\General project\src\assets\scripts\js" />
+    </key>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="" />
+      <created>1587453860302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587453860302</updated>
+      <workItem from="1587453861408" duration="21792000" />
+      <workItem from="1587485325302" duration="604000" />
+      <workItem from="1587485936059" duration="1425000" />
+      <workItem from="1587487368332" duration="90000" />
+      <workItem from="1587487465870" duration="728000" />
+      <workItem from="1587488348050" duration="4538000" />
+      <workItem from="1587542589071" duration="14491000" />
+      <workItem from="1587625883122" duration="22199000" />
+      <workItem from="1587712784138" duration="17677000" />
+      <workItem from="1587883489128" duration="5155000" />
+      <workItem from="1587974003872" duration="21507000" />
+      <workItem from="1588009350951" duration="1194000" />
+      <workItem from="1588010736356" duration="1458000" />
+      <workItem from="1588012246513" duration="1949000" />
+      <workItem from="1588021706358" duration="5708000" />
+      <workItem from="1588052681170" duration="25095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="355" key="#Deployment" timestamp="1588086295154">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="872" y="355" key="#Deployment/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588086295154" />
+    <state x="903" y="455" key="#ESLint" timestamp="1587489965723">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="903" y="455" key="#ESLint/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587489965723" />
+    <state x="906" y="375" key="#Inspections" timestamp="1587490246515">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="906" y="375" key="#Inspections/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587490246515" />
+    <state x="816" y="386" key="#Options" timestamp="1588011822726">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="816" y="386" key="#Options/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588011822726" />
+    <state x="856" y="342" key="#SSH_Configurations" timestamp="1588086292636">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="856" y="342" key="#SSH_Configurations/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588086292636" />
+    <state x="734" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587887098067">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="734" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587887098067" />
+    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587471025227">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587471025227" />
+    <state x="92" y="92" width="2376" height="1210" key="DiffContextDialog" timestamp="1587998701765">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="92" y="92" width="2376" height="1210" key="DiffContextDialog/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587998701765" />
+    <state x="1258" y="526" width="458" height="489" key="FileChooserDialogImpl" timestamp="1587489534601">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1258" y="526" width="458" height="489" key="FileChooserDialogImpl/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587489534601" />
+    <state width="2519" height="399" key="GridCell.Tab.0.bottom" timestamp="1587492502326">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2519" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587492502326" />
+    <state width="2519" height="399" key="GridCell.Tab.0.center" timestamp="1587492502326">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2519" height="399" key="GridCell.Tab.0.center/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587492502326" />
+    <state width="2519" height="399" key="GridCell.Tab.0.left" timestamp="1587492502325">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2519" height="399" key="GridCell.Tab.0.left/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587492502325" />
+    <state width="2519" height="399" key="GridCell.Tab.0.right" timestamp="1587492502326">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2519" height="399" key="GridCell.Tab.0.right/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587492502326" />
+    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor" timestamp="1588059668888">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588059668888" />
+    <state x="1113" y="595" key="WebDeployment.AddServerDialog.v.1" timestamp="1587453883866">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1113" y="595" key="WebDeployment.AddServerDialog.v.1/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587453883866" />
+    <state x="1056" y="427" key="ftp.server.browser" timestamp="1587734555372">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1056" y="427" key="ftp.server.browser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587734555372" />
+    <state x="1124" y="588" key="publish.login" timestamp="1588015075716">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1124" y="588" key="publish.login/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588015075716" />
+    <state x="936" y="329" key="run.anything.popup" timestamp="1587551834506">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="936" y="329" key="run.anything.popup/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587551834506" />
+  </component>
+</project>
