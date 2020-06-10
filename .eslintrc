@@ -8,12 +8,24 @@
         "airbnb/base"
     ],
     "rules": {
-        "no-plusplus": "off",
-        "eol-last": "off",
-        "no-shadow": "off",
+        "no-console": "error",
+        "arrow-parens": "off",
         "indent": [
             "error",
-            4
-        ]
+            2
+        ],
+        "max-len": [
+            "error",
+            120
+        ],
+        "require-jsdoc": "off",
+        "operator-linebreak": "off",
+        "no-unused-vars": "warn",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "object-curly-spacing": ["error", "always"],
+        "react/prop-types": 0
     }
 }
