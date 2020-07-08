@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +113,7 @@
       <workItem from="1588052681170" duration="25095000" />
       <workItem from="1591805000459" duration="1017000" />
       <workItem from="1594188384766" duration="4889000" />
-      <workItem from="1594217370911" duration="3014000" />
+      <workItem from="1594217370911" duration="4033000" />
     </task>
     <servers />
   </component>

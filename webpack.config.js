@@ -46,7 +46,17 @@ const optimization = () => {
 
   if (isProd) {
     config.minimizer = [
-      new OptimizeCssAssetsPlugin(),
+      new OptimizeCssAssetsPlugin({
+        cssProcessor: require('cssnano'),
+        cssProcessorPluginOptions: {
+          preset: ['default', {
+            discardComments: {
+              removeAll: true,
+            },
+          },
+          ],
+        },
+      }),
       new TerserPlugin(),
     ];
   }
