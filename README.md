@@ -1,2 +1,10 @@
-# work-general-tmplt-webpack
-Рабочий шаблон. Установлен ESLint, airbnb-config, minicss. scss, babel, image-webpack-loader
+# Основной рабочий шаблон.
+Верстка создается в pug-файлах в директории `/src/assets/pug/pages/`.
+
+## Команды
+
+**npm run build** - сборка проекта
+
+**npm run dev** - сборка проекта в dev режиме
+
+**npm start** - Запустить локальный сервер для разработки в dev-режиме
