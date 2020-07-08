@@ -1,3 +1,3 @@
-import './js/app';
-import './scss/index.scss';
-import './css/style.css';
+import './assets/scripts/js/app';
+import './assets/styles/scss/index.scss';
+import './assets/styles/css/style.css';

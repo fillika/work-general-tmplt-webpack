@@ -10,6 +10,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
 
+const fileLoader = {
+  loader: 'file-loader',
+  options: {
+    name: '[path]/[name].[ext]',
+  }
+};
+
 const optimization = () => {
   const config = {};
 
@@ -37,6 +44,14 @@ module.exports = {
     port: 4100,
   },
   optimization: optimization(),
+  resolve: {
+    alias: { // На случай, если придется прописывать длинные пути
+      '@scripts': path.resolve(__dirname, 'src/assets/scripts/'),
+      '@styles': path.resolve(__dirname, 'src/assets/styles/'),
+      '@img': path.resolve(__dirname, 'src/assets/media/img/'),
+      '@files': path.resolve(__dirname, 'src/assets/media/files/'),
+    }
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].min.css',
@@ -85,12 +100,7 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|webp|svg|)$/i,
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[folder]/[name].[ext]',
-            },
-          },
+          fileLoader,
           {
             loader: 'image-webpack-loader',
             options: {
@@ -119,8 +129,12 @@ module.exports = {
         ],
       },
       {
-        test: /\.(ttf|woff|woff2|eot|)$/i,
-        loader: 'file-loader',
+        test: /\.(ttf|woff|woff2|eot|otf)$/i,
+        use: [fileLoader],
+      },
+      {
+        test: /\.(pdf)$/i,
+        use: [fileLoader],
       },
     ],
   },
