@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pug/pages/second-page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pug/partials/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pug/partials/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -27,6 +34,7 @@
         <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -66,7 +74,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -109,7 +117,7 @@
       <workItem from="1588021706358" duration="5708000" />
       <workItem from="1588052681170" duration="25095000" />
       <workItem from="1591805000459" duration="1017000" />
-      <workItem from="1594188384766" duration="2316000" />
+      <workItem from="1594188384766" duration="3721000" />
     </task>
     <servers />
   </component>
@@ -141,10 +149,10 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="734" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587887098067" />
-    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587471025227">
+    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594191598349">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
-    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587471025227" />
+    <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594191598349" />
     <state x="92" y="92" width="2376" height="1210" key="DiffContextDialog" timestamp="1587998701765">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
@@ -169,10 +177,10 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2519" height="399" key="GridCell.Tab.0.right/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594188503560" />
-    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor" timestamp="1588059668888">
+    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor" timestamp="1594191960388">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
-    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588059668888" />
+    <state x="157" y="109" width="2292" height="1104" key="SettingsEditor/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594191960388" />
     <state x="1113" y="595" key="WebDeployment.AddServerDialog.v.1" timestamp="1587453883866">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>

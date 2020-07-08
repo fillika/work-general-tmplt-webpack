@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -9,6 +10,29 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
+
+/**
+ * Для автоматической компиляции pug
+ */
+function generateHtmlPlugins(templateDir) {
+  // Read files in template directory
+  const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir));
+  return templateFiles.map(item => {
+    // Split names and extension
+    const parts = item.split('.');
+    const name = parts[0];
+    const extension = parts[1];
+
+    // const filename = name === 'index' ? `${name}.html` : `${name}/index.html`;
+    // Create new HTMLWebpackPlugin with options
+    return new HtmlWebpackPlugin({
+      filename: `${name}.html`,
+      template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`),
+    });
+  });
+}
+
+const PugToHTMLPlugin = generateHtmlPlugins('./src/assets/pug/pages');
 
 const fileLoader = {
   loader: 'file-loader',
@@ -64,18 +88,21 @@ module.exports = {
       options: {
         postcss: [autoprefixer()],
       },
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-      minify: false,
-    }),
-  ],
+    })
+  ].concat(PugToHTMLPlugin),
   module: {
     rules: [
       {
         test: /.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
+      },
+      {
+        test: /\.pug$/,
+        loader: 'pug-loader',
+        options: {
+          pretty: true,
+        },
       },
       {
         test: /\.css$/,
