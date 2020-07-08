@@ -38,7 +38,7 @@ const fileLoader = {
   loader: 'file-loader',
   options: {
     name: '[path]/[name].[ext]',
-  }
+  },
 };
 
 const optimization = () => {
@@ -59,7 +59,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     '@babel/polyfill',
-    './src/index.js'
+    './src/index.js',
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -77,7 +77,7 @@ module.exports = {
       '@styles': path.resolve(__dirname, './src/assets/styles/'),
       '@img': path.resolve(__dirname, './src/assets/media/img/'),
       '@files': path.resolve(__dirname, './src/assets/media/files/'),
-    }
+    },
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -88,7 +88,7 @@ module.exports = {
       options: {
         postcss: [autoprefixer()],
       },
-    })
+    }),
   ].concat(PugToHTMLPlugin),
   module: {
     rules: [
@@ -165,6 +165,21 @@ module.exports = {
       {
         test: /\.(pdf)$/i,
         use: [fileLoader],
+      },
+      {
+        test: /\.ts$/,
+        loader: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-typescript',
+            ],
+            plugins: [
+              '@babel/plugin-proposal-class-properties',
+              '@babel/plugin-transform-classes',
+            ],
+          },
+        },
       },
     ],
   },
