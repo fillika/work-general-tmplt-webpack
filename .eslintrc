@@ -25,6 +25,7 @@
             "error",
             "windows"
         ],
+        "import/no-unresolved": "off",
         "object-curly-spacing": ["error", "always"],
         "react/prop-types": 0
     }

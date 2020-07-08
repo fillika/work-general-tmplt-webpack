@@ -46,10 +46,10 @@ module.exports = {
   optimization: optimization(),
   resolve: {
     alias: { // На случай, если придется прописывать длинные пути
-      '@scripts': path.resolve(__dirname, 'src/assets/scripts/'),
-      '@styles': path.resolve(__dirname, 'src/assets/styles/'),
-      '@img': path.resolve(__dirname, 'src/assets/media/img/'),
-      '@files': path.resolve(__dirname, 'src/assets/media/files/'),
+      '@scripts': path.resolve(__dirname, './src/assets/scripts/'),
+      '@styles': path.resolve(__dirname, './src/assets/styles/'),
+      '@img': path.resolve(__dirname, './src/assets/media/img/'),
+      '@files': path.resolve(__dirname, './src/assets/media/files/'),
     }
   },
   plugins: [
@@ -63,7 +63,7 @@ module.exports = {
       },
     }),
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: './src/index.html',
       minify: false,
     }),
   ],
