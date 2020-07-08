@@ -33,7 +33,10 @@ const optimization = () => {
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: './src/index.js',
+  entry: [
+    '@babel/polyfill',
+    './src/index.js'
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'project.min.js',
