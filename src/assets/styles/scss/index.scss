@@ -46,3 +46,24 @@ img {
     overflow: hidden;
     display: none !important;
 }
+
+.cat {
+    width: 400px;
+    height: 400px;
+    background-image: url('~@img/cat.webp');
+    background-size: cover;
+}
+
+.instagram {
+    width: 400px;
+    height: 400px;
+    background-image: url('~@img/instagram.png');
+    background-size: cover;
+}
+
+.jpeg {
+    width: 400px;
+    height: 400px;
+    background-image: url('~@img/jpeg.jpg');
+    background-size: cover;
+}

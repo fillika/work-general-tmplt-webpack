@@ -7,6 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ImageMinPlugin = require('imagemin-webpack');
 
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
@@ -138,31 +139,48 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|webp|svg|)$/i,
+        test: /\.(png|jpe?g|gif|webp|svg)$/i,
         use: [
           fileLoader,
           {
-            loader: 'image-webpack-loader',
+            loader: ImageMinPlugin.loader,
             options: {
-              mozjpeg: {
-                progressive: true,
-                quality: 80,
-              }, // optipng.enabled: false will disable optipng
-              optipng: {
-                enabled: false,
-              },
-              pngquant: {
-                quality: [
-                  0.9,
-                  1,
+              bail: false,
+              cache: false,
+              imageminOptions: {
+                plugins: [
+                  [
+                    'pngquant',
+                    {
+                      quality: [0.5, 0.6],
+                      speed: 6,
+                    },
+                  ],
+                  [
+                    'mozjpeg',
+                    {
+                      quality: 65,
+                      progressive: true,
+                    },
+                  ],
+                  [
+                    'gifsicle',
+                    {
+                      interlaced: true,
+                      optimizationLevel: 3,
+                    },
+                  ],
+                  [
+                    'svgo',
+                    {
+                      plugins: [
+                        {
+                          removeViewBox: false,
+                        },
+                      ],
+                    },
+                  ],
                 ],
-                speed: 10,
-              },
-              gifsicle: {
-                interlaced: false,
-              }, // the webp option will enable WEBP
-              webp: {
-                quality: 75,
               },
             },
           },
