@@ -90,6 +90,7 @@ module.exports = {
       '@files': path.resolve(__dirname, './src/assets/files/'),
       '@fonts': path.resolve(__dirname, './src/assets/media/fonts/'),
     },
+    extensions: ['.ts', '.js', '.json'],
   },
   plugins: [
     new MiniCssExtractPlugin({
