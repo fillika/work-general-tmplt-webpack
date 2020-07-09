@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/media/img/wa_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scripts/js/imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/js/imports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/ts/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -115,7 +110,9 @@
       <workItem from="1588052681170" duration="25095000" />
       <workItem from="1591805000459" duration="1017000" />
       <workItem from="1594188384766" duration="4889000" />
-      <workItem from="1594217370911" duration="7021000" />
+      <workItem from="1594217370911" duration="7748000" />
+      <workItem from="1594277746129" duration="11000" />
+      <workItem from="1594280391208" duration="1672000" />
     </task>
     <servers />
   </component>

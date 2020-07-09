@@ -12,7 +12,8 @@
     },
     "browserslist": [
         "> 0.25%, not dead",
-        "IE 10"
+        "IE 10",
+        "last 25 version"
     ],
     "author": "",
     "license": "ISC",
