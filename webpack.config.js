@@ -70,6 +70,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     '@babel/polyfill',
+    'whatwg-fetch',
     './src/index.js',
   ],
   output: {
