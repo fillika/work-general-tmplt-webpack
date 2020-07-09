@@ -12,7 +12,6 @@
 }
 
 body, html {
-    font-family: Arial, sans-serif;
     font-size: calc(13px + 100vw / 141);
 
     @include minWidth($large) {
