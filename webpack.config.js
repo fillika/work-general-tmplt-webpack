@@ -197,6 +197,11 @@ module.exports = {
         use: [fileLoader],
       },
       {
+        test: /\.json$/,
+        type: 'javascript/auto',
+        use: [fileLoader],
+      },
+      {
         test: /\.ts$/,
         loader: {
           loader: 'babel-loader',
