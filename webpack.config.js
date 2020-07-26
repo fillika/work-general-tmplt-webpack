@@ -18,7 +18,7 @@ const isProd = !isDev;
 function generateHtmlPlugins(templateDir) {
   // Read files in template directory
   const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir));
-  return templateFiles.map(item => {
+  return templateFiles.map((item) => {
     // Split names and extension
     const parts = item.split('.');
     const name = parts[0];
@@ -29,6 +29,9 @@ function generateHtmlPlugins(templateDir) {
     return new HtmlWebpackPlugin({
       filename: `${name}.html`,
       template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`),
+      minify: {
+        collapseWhitespace: true,
+      },
     });
   });
 }
@@ -50,11 +53,13 @@ const optimization = () => {
       new OptimizeCssAssetsPlugin({
         cssProcessor: require('cssnano'),
         cssProcessorPluginOptions: {
-          preset: ['default', {
-            discardComments: {
-              removeAll: true,
+          preset: [
+            'default',
+            {
+              discardComments: {
+                removeAll: true,
+              },
             },
-          },
           ],
         },
       }),
@@ -68,11 +73,7 @@ const optimization = () => {
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: [
-    '@babel/polyfill',
-    'whatwg-fetch',
-    './src/index.js',
-  ],
+  entry: ['@babel/polyfill', 'whatwg-fetch', './src/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'project.min.js',
@@ -84,7 +85,8 @@ module.exports = {
   },
   optimization: optimization(),
   resolve: {
-    alias: { // На случай, если придется прописывать длинные пути
+    alias: {
+      // На случай, если придется прописывать длинные пути
       '@scripts': path.resolve(__dirname, './src/assets/scripts/'),
       '@styles': path.resolve(__dirname, './src/assets/styles/'),
       '@img': path.resolve(__dirname, './src/assets/media/img/'),
@@ -207,9 +209,7 @@ module.exports = {
         loader: {
           loader: 'babel-loader',
           options: {
-            presets: [
-              '@babel/preset-typescript',
-            ],
+            presets: ['@babel/preset-typescript'],
             plugins: [
               '@babel/plugin-proposal-class-properties',
               '@babel/plugin-transform-classes',

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/scripts/ts/definitions/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/media/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/media/img/jpeg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/ts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +30,10 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Pug File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -67,6 +74,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Репозитории GIT\work-general-tmplt-webpack\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -119,6 +127,7 @@
       <workItem from="1594316912229" duration="38000" />
       <workItem from="1594325099931" duration="32000" />
       <workItem from="1594325453840" duration="176000" />
+      <workItem from="1595793203633" duration="249000" />
     </task>
     <servers />
   </component>
