@@ -30,7 +30,7 @@ function generateHtmlPlugins(templateDir) {
       filename: `${name}.html`,
       template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`),
       minify: {
-        collapseWhitespace: true,
+        collapseWhitespace: false,
       },
     });
   });
