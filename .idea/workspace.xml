@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/General project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/General project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Репозитории GIT\work-general-tmplt-webpack\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,7 +125,7 @@
       <workItem from="1594325453840" duration="176000" />
       <workItem from="1595793203633" duration="323000" />
       <workItem from="1595833442338" duration="45000" />
-      <workItem from="1597953824822" duration="54000" />
+      <workItem from="1597953824822" duration="1277000" />
     </task>
     <servers />
   </component>
@@ -134,38 +137,14 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="872" y="355" key="#Deployment/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594188465303" />
-    <state x="903" y="455" key="#ESLint" timestamp="1587489965723">
+    <state x="903" y="430" key="#ESLint" timestamp="1597954937405">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
-    <state x="903" y="455" key="#ESLint/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587489965723" />
-    <state x="906" y="375" key="#Inspections" timestamp="1587490246515">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="906" y="375" key="#Inspections/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587490246515" />
-    <state x="816" y="386" key="#Options" timestamp="1588011822726">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="816" y="386" key="#Options/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588011822726" />
-    <state x="856" y="342" key="#SSH_Configurations" timestamp="1588086292636">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="856" y="342" key="#SSH_Configurations/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588086292636" />
-    <state x="734" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587887098067">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="734" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587887098067" />
+    <state x="903" y="430" key="#ESLint/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1597954937405" />
     <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594191598349">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594191598349" />
-    <state x="92" y="92" width="2376" height="1210" key="DiffContextDialog" timestamp="1587998701765">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="92" y="92" width="2376" height="1210" key="DiffContextDialog/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587998701765" />
-    <state x="1258" y="526" width="458" height="489" key="FileChooserDialogImpl" timestamp="1587489534601">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="1258" y="526" width="458" height="489" key="FileChooserDialogImpl/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587489534601" />
     <state width="2519" height="399" key="GridCell.Tab.0.bottom" timestamp="1594188503560">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
@@ -186,21 +165,5 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="157" y="109" width="2292" height="1104" key="SettingsEditor/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594191960388" />
-    <state x="1113" y="595" key="WebDeployment.AddServerDialog.v.1" timestamp="1587453883866">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="1113" y="595" key="WebDeployment.AddServerDialog.v.1/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587453883866" />
-    <state x="1056" y="427" key="ftp.server.browser" timestamp="1587734555372">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="1056" y="427" key="ftp.server.browser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587734555372" />
-    <state x="1124" y="588" key="publish.login" timestamp="1588015075716">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="1124" y="588" key="publish.login/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1588015075716" />
-    <state x="936" y="329" key="run.anything.popup" timestamp="1587551834506">
-      <screen x="0" y="0" width="2560" height="1394" />
-    </state>
-    <state x="936" y="329" key="run.anything.popup/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1587551834506" />
   </component>
 </project>
