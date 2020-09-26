@@ -32,7 +32,29 @@
             "windows"
         ],
         "import/no-unresolved": "off",
-        "object-curly-spacing": ["error", "always"],
-        "react/prop-types": 0
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "react/prop-types": 0,
+        "import/extensions": [
+            "off",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "class-methods-use-this": "off",
+        "lines-between-class-members": "off",
+        "no-plusplus": "off",
+        "template-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "no-use-before-define": "off",
+        "no-shadow": "off"
     }
 }

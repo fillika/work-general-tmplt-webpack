@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Работа/General project" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -125,7 +120,8 @@
       <workItem from="1594325453840" duration="176000" />
       <workItem from="1595793203633" duration="323000" />
       <workItem from="1595833442338" duration="45000" />
-      <workItem from="1597953824822" duration="1277000" />
+      <workItem from="1597953824822" duration="2087000" />
+      <workItem from="1597993362661" duration="14000" />
     </task>
     <servers />
   </component>
@@ -145,6 +141,10 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594191598349" />
+    <state x="1060" y="452" key="FileChooserDialogImpl" timestamp="1597993375073">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1060" y="452" key="FileChooserDialogImpl/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1597993375073" />
     <state width="2519" height="399" key="GridCell.Tab.0.bottom" timestamp="1594188503560">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
