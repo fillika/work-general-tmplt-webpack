@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/atomic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/atomic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/scss/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylelint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/stylelint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,8 @@
       <workItem from="1597993362661" duration="14000" />
       <workItem from="1602161556451" duration="6029000" />
       <workItem from="1602174559334" duration="962000" />
-      <workItem from="1602175674319" duration="215000" />
+      <workItem from="1602175674319" duration="879000" />
+      <workItem from="1602177326387" duration="442000" />
     </task>
     <servers />
   </component>
