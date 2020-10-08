@@ -34,7 +34,7 @@ module.exports = {
         ],
       },
     ],
-    indentation: [2, { baseIndentLevel: 1 }],
+    indentation: 2,
     'color-hex-length': 'short',
     'string-quotes': 'single',
   },
