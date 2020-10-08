@@ -1,0 +1,41 @@
+module.exports = {
+  plugins: [
+    'stylelint-order',
+  ],
+  rules: {
+    'order/properties-order': [
+      {
+        properties: [
+          'float',
+          'display',
+          'position',
+          'font',
+          'font-size',
+          'font-family',
+          'font-style',
+          'font-weight',
+          'text-align',
+          'line-height',
+          'color',
+          'background-color',
+          'border',
+          'border-radius',
+          'top',
+          'left',
+          'right',
+          'bottom',
+          'content',
+          'width',
+          'height',
+          'margin',
+          'padding',
+          'opacity',
+          'z-index',
+        ],
+      },
+    ],
+    indentation: [2, { baseIndentLevel: 1 }],
+    'color-hex-length': 'short',
+    'string-quotes': 'single',
+  },
+};

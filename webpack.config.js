@@ -8,6 +8,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const styleLintWebpackPlugin = require('stylelint-webpack-plugin');
 
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
@@ -136,6 +137,11 @@ module.exports = {
       options: {
         postcss: [autoprefixer()],
       },
+    }),
+    new styleLintWebpackPlugin({
+      configFile: 'stylelint.config.js',
+      files: 'src/**/*.(css|scss|sass)',
+      fix: true
     }),
   ].concat(PugToHTMLPlugin),
   module: {
