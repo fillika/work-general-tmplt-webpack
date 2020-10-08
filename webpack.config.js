@@ -7,7 +7,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ImageMinPlugin = require('imagemin-webpack');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
@@ -100,6 +100,34 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
   },
   plugins: [
+    new ImageMinimizerPlugin({
+      minimizerOptions: {
+        plugins: [
+          ['gifsicle',
+            {
+              interlaced: true
+            }],
+          ['mozjpeg',
+            {
+              quality: 80
+            }],
+          ['pngquant',
+            {
+              quality: [0.6, 0.8],
+            },],
+          [
+            'svgo',
+            {
+              plugins: [
+                {
+                  removeViewBox: false,
+                },
+              ],
+            },
+          ],
+        ],
+      },
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].min.css',
     }),
@@ -151,48 +179,6 @@ module.exports = {
         test: /\.(png|jpe?g|gif|webp|svg)$/i,
         use: [
           fileLoader,
-          {
-            loader: ImageMinPlugin.loader,
-            options: {
-              bail: false,
-              cache: false,
-              imageminOptions: {
-                plugins: [
-                  [
-                    'pngquant',
-                    {
-                      quality: [0.5, 0.6],
-                      speed: 6,
-                    },
-                  ],
-                  [
-                    'mozjpeg',
-                    {
-                      quality: 65,
-                      progressive: true,
-                    },
-                  ],
-                  [
-                    'gifsicle',
-                    {
-                      interlaced: true,
-                      optimizationLevel: 3,
-                    },
-                  ],
-                  [
-                    'svgo',
-                    {
-                      plugins: [
-                        {
-                          removeViewBox: false,
-                        },
-                      ],
-                    },
-                  ],
-                ],
-              },
-            },
-          },
         ],
       },
       {
