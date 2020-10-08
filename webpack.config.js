@@ -3,7 +3,7 @@ const fs = require('fs');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -73,7 +73,11 @@ const optimization = () => {
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: ['@babel/polyfill', 'whatwg-fetch', './src/index.js'],
+  entry: [
+    // '@babel/polyfill', // Временно отключил, чтобы не увеличивать размер файла
+    // 'whatwg-fetch', // Временно отключил, чтобы не увеличивать размер файла
+    './src/index.js'
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'project.min.js',
@@ -93,7 +97,7 @@ module.exports = {
       '@files': path.resolve(__dirname, './src/assets/files/'),
       '@fonts': path.resolve(__dirname, './src/assets/media/fonts/'),
     },
-    extensions: ['.ts', '.js', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -205,7 +209,7 @@ module.exports = {
         use: [fileLoader],
       },
       {
-        test: /\.ts$/,
+        test: /\.(ts|tsx)$/,
         loader: {
           loader: 'babel-loader',
           options: {

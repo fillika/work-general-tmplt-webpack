@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0b9125-cabf-4f3f-8476-2297ffd2d18d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/scripts/tsx/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scripts/tsx/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,7 @@
         <option value="Pug File" />
         <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -53,7 +65,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Работа/General project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -66,7 +78,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Репозитории GIT\work-general-tmplt-webpack\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Репозитории GIT\work-general-tmplt-webpack\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,6 +135,7 @@
       <workItem from="1595833442338" duration="45000" />
       <workItem from="1597953824822" duration="2087000" />
       <workItem from="1597993362661" duration="14000" />
+      <workItem from="1602161556451" duration="2941000" />
     </task>
     <servers />
   </component>
@@ -133,10 +147,11 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="872" y="355" key="#Deployment/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1594188465303" />
-    <state x="903" y="430" key="#ESLint" timestamp="1597954937405">
+    <state x="903" y="430" key="#ESLint" timestamp="1602164258678">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="903" y="430" key="#ESLint/0.0.2560.1394/2560.0.2560.1400@0.0.2560.1394" timestamp="1597954937405" />
+    <state x="903" y="430" key="#ESLint/2560.0.2560.1394/0.0.2560.1394@0.0.2560.1394" timestamp="1602164258678" />
     <state x="916" y="497" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594191598349">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>

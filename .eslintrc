@@ -1,60 +1,61 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true,
-        "node": true
-    },
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-        "@typescript-eslint"
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "airbnb/base",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console": "error",
+    "arrow-parens": "off",
+    "indent": [
+      "error",
+      2
     ],
-    "extends": [
-        "airbnb/base",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+    "max-len": [
+      "error",
+      120
     ],
-    "rules": {
-        "no-console": "error",
-        "arrow-parens": "off",
-        "indent": [
-            "error",
-            2
-        ],
-        "max-len": [
-            "error",
-            120
-        ],
-        "require-jsdoc": "off",
-        "operator-linebreak": "off",
-        "no-unused-vars": "warn",
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "import/no-unresolved": "off",
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "react/prop-types": 0,
-        "import/extensions": [
-            "off",
-            "ignorePackages",
-            {
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
-            }
-        ],
-        "class-methods-use-this": "off",
-        "lines-between-class-members": "off",
-        "no-plusplus": "off",
-        "template-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "no-use-before-define": "off",
-        "no-shadow": "off"
-    }
+    "require-jsdoc": "off",
+    "operator-linebreak": "off",
+    "no-unused-vars": "warn",
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "import/no-unresolved": "off",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "react/prop-types": 0,
+    "import/extensions": [
+      "off",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "class-methods-use-this": "off",
+    "lines-between-class-members": "off",
+    "no-plusplus": "off",
+    "template-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-use-before-define": "off",
+    "no-shadow": "off"
+  }
 }
